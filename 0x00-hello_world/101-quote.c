@@ -1,11 +1,7 @@
 /**
- *
  * main - Wows
  *
- *
- *
  * Return: Always 1 (Error)
- *
  */
 
 #include<stdio.h>
