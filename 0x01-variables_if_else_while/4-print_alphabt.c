@@ -15,7 +15,7 @@ int main(void)
 
 	for (lwch =  'a'; lwch <= 'z'; lwch++)
 	{
-		if ( lwch = 'e' || lwch = 'q')
+		if (lwch == 'e' || lwch == 'q')
 			lwch++;
 		putchar(lwch);
 	}
