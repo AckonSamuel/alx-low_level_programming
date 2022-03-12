@@ -25,6 +25,7 @@ int main(void)
 	{
 	putchar(lwch + '0');
 	putchar(j + '0');
+	putchar(' ');
 	putchar(i + '0');
 	putchar(s + '0');
 	if (j != 8)
