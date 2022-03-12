@@ -14,7 +14,7 @@ int main(void)
 
 
 	for (lwch = 0; lwch <= 9; lwch++)
-	printf("%d",lwch);
+	printf("%d", lwch);
 	putchar('\n');
 	return (0);
 }
