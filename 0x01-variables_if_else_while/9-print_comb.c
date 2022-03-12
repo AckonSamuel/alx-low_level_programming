@@ -16,9 +16,10 @@ int main(void)
 	for (lwch = 0; lwch < 9; lwch++)
 	{
 	putchar(lwch + '0');
-	putchar(", ");
+	putchar(",");
+	if (lwch != 9)
+	putchar(" ");
 	}
-	putchar(9 + '0');
 	putchar('\n');
 	return (0);
 }
