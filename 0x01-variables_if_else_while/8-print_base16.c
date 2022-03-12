@@ -14,7 +14,7 @@ int main(void)
 
 
 	for (lwch = 0; lwch <= 9; lwch++)
-	putchar(lwch + "0");
+	putchar(lwch + '0');
 	for (lwch = 'a'; lwch <= 'f'; lwch++)
 	putchar(lwch);
 	putchar('\n');
