@@ -11,12 +11,13 @@
 int main(void)
 {
 	int lwch;
+	int star = ",";
 
 
 	for (lwch = 0; lwch < 9; lwch++)
 	{
 	putchar(lwch + '0');
-	putchar(",");
+	putchar(star);
 	if (lwch != 9)
 	putchar(" ");
 	}
