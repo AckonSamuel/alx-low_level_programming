@@ -4,7 +4,7 @@
 /* more headers goes here */
 
 /**
- * main - This prints the alphabets in lowercase and uppercase.
+ * main - This prints the alphabets in lowercase.
  *
  * Return: 0
  */
@@ -14,8 +14,6 @@ int main(void)
 
 
 	for (lwch =  'a'; lwch <= 'z'; lwch++)
-		putchar(lwch);
-	for (lwch = 'A'; lwch <= 'Z'; lwch++)
 		putchar(lwch);
 	putchar('\n');
 	return (0);
