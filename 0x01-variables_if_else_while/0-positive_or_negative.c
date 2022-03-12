@@ -3,7 +3,10 @@
 #include <time.h>
 /* more headers goes here */
 
-/* betty style doc for function main goes there */
+/**
+ * main - This generates a random number and prints 
+ * whether the number is a positive, negative or zero
+ */
 int main(void)
 {
 	int n;
