@@ -12,7 +12,7 @@ int main(void)
 {
 	int lwch;
 
-	for (lwch = 0; lwch < 9; lwch++)
+	for (lwch = 0; lwch <= 9; lwch++)
 	{
 	putchar(lwch + '0');
 	putchar(',');
