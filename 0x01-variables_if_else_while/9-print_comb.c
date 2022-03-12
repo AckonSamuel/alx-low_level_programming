@@ -16,7 +16,7 @@ int main(void)
 	for (lwch = 0; lwch < 9; lwch++)
 	{
 	putchar(lwch + '0');
-	putchar(', ');
+	putchar('\, ');
 	}
 	putchar(9 + '0');
 	putchar('\n');
