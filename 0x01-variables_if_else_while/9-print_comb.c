@@ -11,15 +11,17 @@
 int main(void)
 {
 	int lwch;
-	int star = ",";
-
+	char star = ",";
+	char spa = " ";
+	int z = (int)(star);
+	int y = (int)(spa);
 
 	for (lwch = 0; lwch < 9; lwch++)
 	{
 	putchar(lwch + '0');
-	putchar(star);
+	putchar(z);
 	if (lwch != 9)
-	putchar(" ");
+	putchar(y);
 	}
 	putchar('\n');
 	return (0);
