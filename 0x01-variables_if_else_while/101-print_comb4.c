@@ -14,15 +14,16 @@ int main(void)
 	int j;
 	int i;
 
-	for (lwch = 0; lwch < 9; lwch++)
+	for (lwch = 0; lwch < 8; lwch++)
 	{
-	for (j = lwch + 1; j <= 9; j++)
+	for (j = lwch + 1; j <= 8; j++)
 	{
-	for(i = j + 1; i <= 9; i++)
+	for (i = j + 1; i <= 9; i++)
 	{
 	putchar(lwch + '0');
 	putchar(j + '0');
-	if (lwch != 8)
+	putchar(i + '0');
+	if (lwch != 7)
 	{
 	putchar(',');
 	putchar(' ');
