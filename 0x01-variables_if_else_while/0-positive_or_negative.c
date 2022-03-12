@@ -4,8 +4,10 @@
 /* more headers goes here */
 
 /**
- * main - This generates a random number and prints 
- * whether the number is a positive, negative or zero
+ * main - This generates a random number and prints
+ * whether the number is positive,negative or zero.
+ *
+ * Return: 0
  */
 int main(void)
 {
