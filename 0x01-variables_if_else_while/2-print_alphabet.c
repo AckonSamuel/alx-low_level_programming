@@ -8,15 +8,14 @@
  *
  * Return: 0
  */
-int main () {
+int main(void) {
 	char lwch;
 
 
-        for(lwch =  'a'; lwch <= 'z'; lwch++)
+        for (lwch =  'a'; lwch <= 'z'; lwch++)
 		putchar(lwch);
-	for(lwch = 'A'; lwch <= 'Z'; lwch++)
+	for (lwch = 'A'; lwch <= 'Z'; lwch++)
 		putchar(lwch);
 	putchar('\n');
 	return (0);
 }
-
