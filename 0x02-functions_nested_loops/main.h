@@ -1,1 +1,1 @@
-void printput();
+printput(void);
