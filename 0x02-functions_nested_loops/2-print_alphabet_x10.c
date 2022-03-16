@@ -9,8 +9,9 @@
 void print_alphabet_x10(void)
 {
 	int first;
+	int counter;
 
-	for (let counter = 0; counter <= 9; counter++)
+	for (counter = 0; counter <= 9; counter++)
 	{
 		first = 'a';
 		while (first <= 'z')
