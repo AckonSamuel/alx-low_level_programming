@@ -16,5 +16,5 @@ int main(void)
 }
 
 printput(void) {
-	putchar("_putchar");
+	putchar('_putchar');
 }
