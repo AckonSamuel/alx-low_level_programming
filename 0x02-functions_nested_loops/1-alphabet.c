@@ -11,8 +11,8 @@ void print_alphabet(void)
 	int first = 'a';
 	while ( first != 'z')
 	{
-		putchar(first);
+		_putchar(first);
 		first++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
