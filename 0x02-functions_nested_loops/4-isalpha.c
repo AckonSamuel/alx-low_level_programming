@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * _isalpha - checks if character is an alphabet
  * @c: character to be checked
  *
@@ -18,7 +18,7 @@ int _isalpha(int c)
 		else
 			see = see;
 	}
-	
+
 	for (first = 'A'; first <= 'Z'; first++)
 	{
 		if (c == first)
@@ -26,5 +26,5 @@ int _isalpha(int c)
 		else
 			see = see;
 	}
-	return see;
+	return (see);
 }
