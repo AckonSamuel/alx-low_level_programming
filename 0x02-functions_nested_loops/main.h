@@ -1,3 +1,2 @@
-void printput (int a) {
-	putchar(a);
-}
+int printput (int a);
+void print_alphabet(void);

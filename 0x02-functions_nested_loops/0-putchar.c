@@ -22,3 +22,8 @@ int main(void)
 	printput('\n');
 	return (0);
 }
+
+int printput (int a) {
+	putchar(a);
+	return (0);
+}
