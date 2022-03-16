@@ -15,6 +15,6 @@ int main(void)
 	return (0);
 }
 
-printput() {
+printput(void) {
 	putchar("_putchar");
 }
