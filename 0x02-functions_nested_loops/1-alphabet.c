@@ -3,7 +3,7 @@
 /**
  * main - print alphabets in lowercase
  *
- * Return: 0
+ * Return: none
  */
 
 void print_alphabet(void)
@@ -11,8 +11,8 @@ void print_alphabet(void)
 	int first = 'a';
 	while ( first != 'z')
 	{
-		printput(first);
+		putchar(first);
 		first++;
 	}
-	printput('\n');
+	putchar('\n');
 }
