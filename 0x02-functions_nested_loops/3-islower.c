@@ -8,7 +8,6 @@
 int _islower(int c)
 {
 	char first;
-	int count;
 	int sen = 0;
 	
 	for (first = 'a'; first <= 'z'; first++)
