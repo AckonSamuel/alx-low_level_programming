@@ -9,7 +9,7 @@
 void print_alphabet(void)
 {
 	int first = 'a';
-	while ( a != z)
+	while ( first != 'z')
 	{
 		printput(first);
 		first++;
