@@ -9,7 +9,7 @@ int _islower(int c)
 {
 	char first;
 	int sen = 0;
-	
+
 	for (first = 'a'; first <= 'z'; first++)
 	{
 		if (c == first)
@@ -17,5 +17,5 @@ int _islower(int c)
 		else
 			sen = sen;
 	}
-	return sen;
+	return (sen);
 }
