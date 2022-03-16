@@ -11,10 +11,14 @@
 
 int main(void)
 {
-	printput();
+	printput('_');
+	printput('p');
+	printput('u');
+	printput('t');
+	printput('c');
+	printput('h');
+	printput('a');
+	printput('r');
+	printput('\n');
 	return (0);
-}
-
-printput(void) {
-	putchar('_putchar');
 }
