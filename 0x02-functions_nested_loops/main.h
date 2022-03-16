@@ -1,1 +1,3 @@
-printput(void);
+void printput (int a) {
+	putchar(a);
+}
