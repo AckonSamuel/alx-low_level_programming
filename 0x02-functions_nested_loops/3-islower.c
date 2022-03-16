@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * _islower - to check for lowercase alphabets
+ * 
+ * @c: the alphabet to be checked
  *
  * Return: 1 (Succes) or 0 (Fail)
  */
