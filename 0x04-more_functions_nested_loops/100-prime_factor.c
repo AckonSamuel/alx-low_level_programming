@@ -1,24 +1,26 @@
 #include <stdio.h>
 
 /**
- * main -  checks for checks for a digit (0 through 9).
+ * main - prime numbers
  *
- * Return: Always 0.
+ * Return: 0
  */
+
 int main(void)
 {
-	long x, y;
+	long num = 612852475143;
+	long divisor = 2;
+	long larg_prim = 0;
 
-	x = 612852475143;
-
-	for (y = 2; x > y; y++)
+	while (num != 1)
 	{
-		while (x % y == 0)
+		if (num % divisor == 0)
 		{
-			x = x / y;
+			num = num / divisor;
+			larg_prim = divisor;
 		}
+		divisor += 1;
 	}
-	printf("%lu", y);
-	putchar('\n');
+	printf("%ld\n", larg_prim);
 	return (0);
 }

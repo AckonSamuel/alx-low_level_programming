@@ -2,30 +2,24 @@
 
 /**
  * print_sign - prints the sign of a number
- * @n: the number of interest
- *
- * Return: 1 (Positive), 0 (Zero), -1(Negative)
+ * @n: the int to check
+ * Return: 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
-	int see = 0;
-
 	if (n > 0)
 	{
 		_putchar('+');
-		see = 1;
-	}
-
-	if (n < 0)
+		return (1);
+	} else if (n == 0)
+	{
+		_putchar(48);
+		return (0);
+	} else if (n < 0)
 	{
 		_putchar('-');
-		see = -1;
 	}
-
-	if (n == 0)
-	{
-		_putchar('0');
-		see = 0;
-	}
-	return (see);
+		return (-1);
 }
